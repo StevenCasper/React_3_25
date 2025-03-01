@@ -9,6 +9,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "nth-check": "^2.1.1",
     "react": "*",
     "react-dom": "*",
     "react-scripts": "*",
@@ -35,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "overrides": {
+    "nth-check": "$nth-check",
+    "postcss": ">=8.4.31",
+    "serialize-javascript": ">=6.0.2"
+}
 }
